@@ -1,9 +1,19 @@
 import { motion } from 'framer-motion';
-import { Calculator, FlaskConical, BookOpen, Languages, Palette, Lock, Star, CheckCircle2 } from 'lucide-react';
+import { 
+  GitBranch, 
+  Globe, 
+  Database, 
+  Cpu, 
+  Network, 
+  ClipboardList,
+  Lock, 
+  Star, 
+  CheckCircle2 
+} from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 
-type Subject = 'math' | 'science' | 'history' | 'language' | 'art';
+type Subject = 'dsa' | 'webdev' | 'database' | 'os' | 'networks' | 'software';
 type QuizStatus = 'locked' | 'available' | 'completed';
 
 interface QuizCardProps {
@@ -17,19 +27,21 @@ interface QuizCardProps {
 }
 
 const subjectIcons = {
-  math: Calculator,
-  science: FlaskConical,
-  history: BookOpen,
-  language: Languages,
-  art: Palette,
+  dsa: GitBranch,
+  webdev: Globe,
+  database: Database,
+  os: Cpu,
+  networks: Network,
+  software: ClipboardList,
 };
 
 const subjectColors = {
-  math: 'from-purple-500 to-violet-600',
-  science: 'from-emerald-400 to-teal-500',
-  history: 'from-amber-400 to-orange-500',
-  language: 'from-pink-400 to-rose-500',
-  art: 'from-cyan-400 to-blue-500',
+  dsa: 'from-violet-500 to-purple-600',
+  webdev: 'from-cyan-400 to-blue-500',
+  database: 'from-emerald-400 to-green-500',
+  os: 'from-orange-400 to-red-500',
+  networks: 'from-pink-400 to-rose-500',
+  software: 'from-yellow-400 to-amber-500',
 };
 
 export function QuizCard({ title, subject, difficulty, status, progress = 0, xpReward, onClick }: QuizCardProps) {
