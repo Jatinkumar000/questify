@@ -1,73 +1,70 @@
-# Welcome to your Lovable project
+# 🎮 Questify – Gamified Learning for Engineers
 
-## Project info
+Questify is a **gamified engineering learning platform** that turns core computer science subjects into interactive quests.  
+Students explore subject planets, complete quizzes, earn XP, unlock badges, and track progress through a game-style dashboard.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+This project focuses on **modern frontend design, gamification principles, and clean UI architecture**.
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## 🖼️ Preview
 
-**Use Lovable**
+![Questify Dashboard](https://github.com/user-attachments/assets/68c3761a-ceaf-42f6-9f17-16995cd69059)
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🚀 Key Features
 
-**Use your preferred IDE**
+- 🪐 **3D Subject Dashboard** with floating engineering domains  
+- 🧠 **Engineering-Focused Tracks**
+  - Data Structures & Algorithms  
+  - Web Development  
+  - Databases & SQL  
+  - Operating Systems  
+  - Computer Networks  
+  - Software Engineering  
+- ⭐ **Gamification System**
+  - XP, levels, daily streaks
+  - Unlockable quizzes
+  - Achievement badges with rarity
+- 🏆 **Leaderboard & Progress HUD**
+- ✨ **Modern Game-Style UI**
+  - Neon-on-dark theme
+  - Smooth hover & micro-interactions
+  - Responsive layout
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 🛠️ Tech Stack
 
-Follow these steps:
+- **React + TypeScript**
+- **Vite**
+- **Tailwind CSS**
+- **Framer Motion**
+- **shadcn/ui**
+- **Git & GitHub (Lovable 2-way sync)**
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## 🎯 Purpose
 
-# Step 3: Install the necessary dependencies.
-npm i
+Built as a **portfolio project** to demonstrate:
+- Gamified UI/UX design
+- Frontend component architecture
+- Engineering-oriented product thinking
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+---
 
-**Edit a file directly in GitHub**
+## 🔮 Future Scope
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+- Backend integration (auth, persistence)
+- Real-time leaderboard
+- Timed challenges & coding playground
+- Live deployment
 
-**Use GitHub Codespaces**
+---
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 👩‍💻 Author
 
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+**Sharon Cynthiya J**  
+BE – Computer Science Engineering
