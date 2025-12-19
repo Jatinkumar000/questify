@@ -84,16 +84,17 @@ export function Scene3D() {
       <Canvas camera={{ position: [0, 0, 8], fov: 60 }}>
         <ambientLight intensity={0.3} />
         <pointLight position={[10, 10, 10]} intensity={1} color="#a855f7" />
-        <pointLight position={[-10, -10, -10]} intensity={0.5} color="#06b6d4" />
+        <pointLight position={[-10, -10, -10]} intensity={0.5} color="#22d3ee" />
         
         <Stars radius={100} depth={50} count={2000} factor={4} saturation={0} fade speed={1} />
         
-        {/* Subject Planets */}
-        <Planet position={[-3, 2, -2]} color="#a855f7" size={0.8} speed={1.2} /> {/* Math - Purple */}
-        <Planet position={[3.5, 1, -3]} color="#10b981" size={1} speed={0.8} /> {/* Science - Green */}
-        <Planet position={[-2, -2, -4]} color="#f59e0b" size={0.6} speed={1.5} /> {/* History - Orange */}
-        <Planet position={[2, -1.5, -2]} color="#ec4899" size={0.7} speed={1} /> {/* Language - Pink */}
-        <Planet position={[0, 3, -5]} color="#06b6d4" size={0.9} speed={0.9} /> {/* Art - Cyan */}
+        {/* Engineering Subject Planets */}
+        <Planet position={[-3.5, 2, -2]} color="#a855f7" size={0.9} speed={1.2} /> {/* DSA - Purple */}
+        <Planet position={[3.5, 1.5, -3]} color="#22d3ee" size={1} speed={0.8} /> {/* Web Dev - Cyan */}
+        <Planet position={[-2.5, -1.5, -4]} color="#34d399" size={0.7} speed={1.5} /> {/* Database - Green */}
+        <Planet position={[2.5, -1, -2]} color="#fb923c" size={0.8} speed={1} /> {/* OS - Orange */}
+        <Planet position={[0, 2.5, -5]} color="#f472b6" size={0.75} speed={0.9} /> {/* Networks - Pink */}
+        <Planet position={[0, -2.5, -3]} color="#fbbf24" size={0.85} speed={1.1} /> {/* Software - Yellow */}
         
         <FloatingParticles />
       </Canvas>
